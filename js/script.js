@@ -18,5 +18,10 @@ const drawing = (e)=>{
     ctx.stroke()
 }
 
+const stopDraw = ()=>{
+    isDrawing = false
+}
+
 canvas.addEventListener("mousedown", startDraw)
 canvas.addEventListener("mousemove", drawing)
+canvas.addEventListener("mouseup", stopDraw)
