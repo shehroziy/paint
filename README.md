@@ -1,2 +1,2 @@
 # paint
-web paint dasturi
+web paint program
