@@ -1,2 +1,2 @@
-# web paint program
+# Web paint program
 
